@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(74, 69, 69);
+    color: white;
+}
+.container textarea{
+    height: 40%;
+    width: 70%;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 780px;
+    resize: vertical;
+    margin-top: 20px;
+    padding: 4px;
+    padding-top: 10px;
+    transition: box-shadow .15s ease-in-out;
+}
+.container textarea:focus{
+    box-shadow: 0px 0px 2px 4px rgb(177, 217, 234);
+    box-shadow: 0px 0px 2px 4px rgb(150, 149, 138);
+}
+.outputBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.outputBox div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+.outputBox input{
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 2px 4px rgb(177, 217, 234);
+   border: none;
+   border-radius: 4px;
+}
+
+
+
+
+
+
+
+
